@@ -9,7 +9,7 @@ type Props = {};
 export function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hi, my name's David Andres León 😎",
+      "Hi, my name's David León 😎",
       "I'm a Frontend Developer 🚀",
       "I'm a super kind guy 🌎",
       "I'm a proactive guy 🏋️‍♂️",
@@ -33,16 +33,19 @@ export function Hero({}: Props) {
           width={150}
           height={150}
           src={"/Image.jpg"}
-          alt="Logo Grupo Sanchez Leon"
+          alt="Foto"
           className="h-36 w-36 mb-6 relative mx-auto object-cover rounded-full"
         />
       </motion.div>
       <div>
+        <h1 className="text-sm uppercase text-[#7478FF] pb-4 tracking-[15px] ease-in-out">
+          SOFTWARE DEVELOPER
+        </h1>
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: [0, 0, 1] }}
           transition={{ duration: 2 }}
-          className="text-2xl min-h-16 md:text-3xl font-bold text-center  text-yellow-100"
+          className="text-4xl min-h-24 md:text-6xl font-semibold text-center text-blue-100"
         >
           {text}
           <Cursor />
