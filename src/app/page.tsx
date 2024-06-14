@@ -2,6 +2,7 @@ import { About } from "@/components/About";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className=" z-0">
+      <Link rel="icon" href="/favicon.ico" />
       {/* Header */}
       <Header />
 
