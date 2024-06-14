@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Servicios Profesionales de Topografía - Gestión Catastral, Diseño de Vías, Fotogrametría y LiDAR",
+    "Desarrollador Frontend con Más de 2 Años de Experiencia - React, HTML, CSS, JavaScript",
   description:
-    "Descubre nuestro portafolio de servicios de topografía especializados: gestión catastral, diseño de vías, fotogrametría y LiDAR, georreferenciación y parcelaciones. Garantizamos precisión y calidad en cada proyecto para satisfacer tus necesidades de infraestructura y mapeo.",
+    "Portafolio de un desarrollador frontend con más de 2 años de experiencia. Especializado en React, HTML, CSS y JavaScript, creando interfaces de usuario modernas y responsivas con alta performance y usabilidad.",
   keywords:
-    "Topografía, gestión catastral, diseño de vías, fotogrametría, LiDAR, georreferenciación, parcelaciones, servicios topográficos, mapeo, infraestructura, precisión topográfica",
+    "Desarrollador frontend, React, HTML, CSS, JavaScript, UI/UX, diseño responsivo, desarrollo web, interfaces de usuario, experiencia frontend, aplicaciones web",
 };
 
 export default function Home() {
