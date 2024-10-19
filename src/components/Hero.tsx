@@ -1,5 +1,5 @@
 "use client";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
+// import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { BackgroundCircles } from "./BackgroundCircles";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -7,20 +7,20 @@ import Image from "next/image";
 type Props = {};
 
 export function Hero({}: Props) {
-  const [text, count] = useTypewriter({
-    words: [
-      "Hi, my name's David León 😎",
-      "I'm a Frontend Developer 🚀",
-      "I'm a super kind guy 🌎",
-      "I'm a proactive guy 🏋️‍♂️",
-      "Guy who loves code 💻",
-      "Guy who loves coffe ☕",
-      "Guy who loves music 🎵",
-    ],
-    loop: true,
-    deleteSpeed: 50,
-    typeSpeed: 50,
-  });
+  // const [text] = useTypewriter({
+  //   words: [
+  //     "Hi, my name's David León 😎",
+  //     "I'm a Frontend Developer 🚀",
+  //     "I'm a super kind guy 🌎",
+  //     "I'm a proactive guy 🏋️‍♂️",
+  //     "Guy who loves code 💻",
+  //     "Guy who loves coffe ☕",
+  //     "Guy who loves music 🎵",
+  //   ],
+  //   loop: true,
+  //   deleteSpeed: 50,
+  //   typeSpeed: 50,
+  // });
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-center overflow-x-hidden">
       <BackgroundCircles />
@@ -47,8 +47,8 @@ export function Hero({}: Props) {
           transition={{ duration: 2 }}
           className="text-4xl min-h-24 md:text-6xl font-semibold text-center text-blue-100"
         >
-          {text}
-          <Cursor />
+          {/* {text} */}
+          {/* <Cursor /> */}
         </motion.p>
       </div>
     </div>
